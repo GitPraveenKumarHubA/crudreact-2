@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.navbar > .container {
+  justify-content: center;
+  height: 9vh;
+}
+
+.leftsidebar {
+  width: 9rem;
+  background-color: indigo;
+  height: 90vh;
+}
+
+.nav-link {
+  color: black;
+}
+
+.dashboardwrapper {
+  display: flex;
+}
+.dashBoardBody {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.additionalIcon {
+  cursor: pointer;
+}
